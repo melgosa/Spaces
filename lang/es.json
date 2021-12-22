@@ -1,0 +1,5 @@
+{
+  "prominent_disclosure_title": "Esta app necesita acceso la localización en segundo plano",
+  "prominent_disclosure_description": "La app necesita utilizar la localización en segundo plano de tu dispositivo para habilitar la funcionalidad de geocercas, siempre que te encuentres dentro de tu plantel. \nLa app reconocerá automáticamente cuando te encuentres dentro de tu plantel. Por favor, acepta los permisos de ubicación en segundo plano",
+  "accept": "Continuar"
+}

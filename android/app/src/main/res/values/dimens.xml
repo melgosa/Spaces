@@ -1,0 +1,26 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- Paddings, espacios o margenes alredor de leteros (TextView's). -->
+    <dimen name="space_top_titles_blue">5dp</dimen>
+    <dimen name="space_top_titles_big_black">15dp</dimen>
+    <dimen name="space_left_titles_big_black">5dp</dimen>
+    <dimen name="cardview_opciones_left_sides_margin">16dp</dimen>
+    <dimen name="cardview_opciones_top_bottom_sides_margin">8dp</dimen>
+    <dimen name="views_vertical_spacing_45">45dp</dimen>
+    <dimen name="spaceBetweenImageAndText">10dp</dimen>
+    <dimen name="padding_lateral_footer">20dp</dimen>
+    <dimen name="views_vertical_spacing_10">10dp</dimen>
+    <dimen name="views_vertical_spacing_4">4dp</dimen>
+    <dimen name="padding_button_alert">30dp</dimen>
+    <dimen name="fragment_normal_sides_margin">24dp</dimen>
+    <!-- Titulos, letreros (TextView's). -->
+    <dimen name="title_blue_size">17sp</dimen>
+    <dimen name="title_big_black_size">27sp</dimen>
+    <dimen name="textSizeRealTimeValues">30sp</dimen>
+    <dimen name="info_normal_text_size_dialog">16sp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+    <!-- Dialogos -->
+    <dimen name="activity_margins">24dp</dimen>
+</resources>

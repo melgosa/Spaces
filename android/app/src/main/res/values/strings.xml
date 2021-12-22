@@ -1,0 +1,77 @@
+<resources>
+    <!--Bracelet-->
+    <string name="action_prompt">¡Atención!</string>
+    <string name="action_cancel">Cancelar</string>
+    <string name="action_sure">Seguro</string>
+    <string name="action_scan">Buscar</string>
+    <string name="action_close">Cerrar</string>
+    <string name="action_stop_scan">Detener búsqueda</string>
+    <string name="action_save">Guardar</string>
+    <string name="action_delete">Borrar</string>
+    <string name="action_add">Añadir</string>
+    <string name="dialog_msg_location_feature">La búsqueda de dispositivos Bluetooth necesita activar la función de localización para poder utilizarce, ¿Deseas activarlo o desactivarlo?</string>
+    <string name="permission_dialog_title">¡Atención!</string>
+    <string name="permission_dialog_rationale_sure">Grant Permissions</string>
+    <string name="permission_dialog_rationale_cancel">Rechazar</string>
+    <string name="permission_dialog_setting_message">Algunos de los permisos que se necesitan han sido rechazados por ti o por el sistema, provocando que la aplicación falle, por favor autoriza los permisos manualmente en la pantalla de "Ajustes", de otra manera esta característica no funcionará correctamente.</string>
+    <string name="permission_dialog_setting_sure">Ajustar</string>
+    <string name="permission_dialog_setting_cancel">Cancelar</string>
+    <string name="permission_dialog_rationale_location">Si se rechaza el permiso de localización GPS, no será posible que busques y te conectes al brazalete correctamente.</string>
+    <string name="permission_dialog_rationale_storage">Si se rechaza el permiso para leer y escribir archivos del dispositivo, no será posible que accedas a ellos.</string>
+    <string name="permission_dialog_rationale_camera">Si se rechaza el permiso para tomar fotos, no será posible que utilices las funciones de la cámara.</string>
+    <string name="whatsApp_msg">Al oprimir el boton de WhatsApp podras tener ayuda mas detallada acerca de los sintomas y recomendaciones
+    para poder llevar a cabo un mejor control y prevencion de COVID-19</string>
+    <!--Estatus de conexión con el dispositivo Bluetooth-->
+    <string name="sign_connected">Conectado</string>
+    <string name="sign_connecting">Conectando&#8230;</string>
+    <string name="sign_not_connected">No conectado</string>
+    <string name="sign_connecting_failed">Falló la conexión</string>
+    <string name="sign_active_disconnect">Desconexión activa</string>
+    <!-- Real time Data -->
+    <string name="sign_blood_pessure_format">%1$s/%2$s</string>
+    <string name="sign_pulsera_registrada_con_exito">Pulsera Kodak registrada con éxito</string>
+    <string name="sign_pulsera_ya_guardada">La pulsera ya estaba registrada</string>
+    <string name="sign_se_agrego_un_registro">Se agregó un nuevo registro</string>
+    <string name="sign_sincronizando_info">Obteniendo información, espera...</string>
+    <string name="sign_datos_en_tiempo_real">Datos en tiempo real</string>
+    <string name="imagen_brazalete">imagen brazalete</string>
+    <string name="sign_arrow_descp">arrow right</string>
+    <string name="title_toca_aqi_para_agregar_pulsera">+ Toca aquí para agregar una pulsera</string>
+    <!-- Item pulcera -->
+    <string name="title_mac">MAC: %1$s</string>
+    <string name="title_ultimo_registro">Último registro: %1$s</string>
+    <string name="sign_no_hay_registros_en_b8">No hay registros nuevos</string>
+    <string name="title_contactos_registrados">Contactos registrados</string>
+    <string name="sign_seleccionar_opcion">Selecciona una opción</string>
+    <string name="sign_eliminar_pulsera">Eliminar pulsera</string>
+    <string name="sign_consultar_registros">Consultar registros</string>
+    <string name="sign_cancelar">Cancelar</string>
+    <string name="sign_elegir_como_pulsera_principal">Elegir para monitoreo</string>
+    <string name="sign_anular_monitoreo">Anular monitoreo</string>
+    <string name="sign_iniciar_monitoreo">Iniciar monitoreo</string>
+    <string name="sign_establecer_intervalo_monitoreo">Establecer intervalo de monitoreo</string>
+    <string name="sign_registro_tiempo_correctamente">Se registró el tiempo correctamente</string>
+    <string name="sign_obteniendo_informacion">Obteniendo info de B8</string>
+    <string name="sign_elegir_distancia">Elegir distancia de alarma</string>
+    <string name="sign_aceptar">Aceptar</string>
+
+    <string name="sign_add">Agregar</string>
+    <string name="sign_selecciona_tipo_pulsera">Selecciona un tipo de pulsera</string>
+    <string name="sign_kodak">Kodak</string>
+    <string name="sign_b8">B8</string>
+
+    <string name="sign_hola">¡Hola %1$s!</string>
+    <string name="sign_id_seguimiento">ID de seguimiento: %1$s</string>
+    <string name="sign_mi_brazalete">Mi Brazalete</string>
+    <string name="sign_selecciona_tipo_brazalete">Selecciona el dispositivo</string>
+    <string name="sign_no_hay_disp">No hay dispositivos agregados</string>
+    <string name="sign_info_agregar_disp">Para agregar un dispositivo oprime el botón Agregar dispositivo y sigue las instrucciones</string>
+    <string name="sign_agregar_dispositivo">Agregar dispositivo +</string>
+    <string name="sign_latidos_por_minuto">Latidos por minuto</string>
+    <string name="sign_sat_oxi">Saturación de oxígeno</string>
+    <string name="sign_presion_arterial">Presión arterial</string>
+    <string name="sign_capacidad_pulmonar">Capacidad Pulmonar</string>
+    <string name="sign_temp">Temperatura</string>
+    <string name="sign_agregar_brazalete">Agregar brazalete</string>
+    <string name="sign_selecciona_distancia">Selecciona la distancia</string>
+</resources>

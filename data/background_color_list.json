@@ -1,0 +1,44 @@
+{
+  "colors" : [
+    {
+      "id" : 0,
+      "deepColor" : "#03E4F0",
+      "lightColor": "#B7FBFF"
+    },
+    {
+      "id" : 1,
+      "deepColor" : "#FB0D8E",
+      "lightColor": "#FCD6EB"
+    },
+    {
+      "id" : 2,
+      "deepColor" : "#0351FC",
+      "lightColor": "#D3E0FD"
+    },
+    {
+      "id" : 3,
+      "deepColor" : "#FCBC03",
+      "lightColor": "#FCEDC1"
+    },
+    {
+      "id" : 4,
+      "deepColor" : "#5A0CFC",
+      "lightColor": "#DCCCFE"
+    },
+    {
+      "id" : 5,
+      "deepColor" : "#FE7904",
+      "lightColor": "#FED6B3"
+    },
+    {
+      "id" : 6,
+      "deepColor" : "#FC0527",
+      "lightColor": "#FCC2CA"
+    },
+    {
+      "id" : 7,
+      "deepColor" : "#373737",
+      "lightColor": "#EDEDED"
+    }
+  ]
+}

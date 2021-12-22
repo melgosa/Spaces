@@ -1,0 +1,14 @@
+{
+  "nombreOpciones" : "OptInicio",
+  "rutas" : [
+    {
+      "ruta" : "menuReservas",
+      "icon" : "book_online_outlined",
+      "texto": "Reservas",
+      "backgoundColor": "#0056F7",
+      "iconColor": "#7FF77F",
+      "textColor": "#FFFFFF",
+      "descripcion": "Reserva una sala, asiento, comedor o área de fumar"
+    }
+  ]
+}

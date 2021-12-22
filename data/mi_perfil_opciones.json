@@ -1,0 +1,13 @@
+{
+    "nombreOpciones" : "MiPerfilOpciones",
+    "rutas" : [
+        {
+            "ruta" : "opciones",
+            "icon" : "settings",
+            "texto": "Mi Brazalete",
+            "backgoundColor": "#FFFFFF",
+            "iconColor": "#0056F7",
+            "textColor": "#000000"
+        }
+    ]
+}

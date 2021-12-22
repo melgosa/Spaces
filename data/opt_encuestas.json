@@ -1,0 +1,29 @@
+{
+  "nombreOpciones" : "OptEncuestas",
+  "rutas" : [
+    {
+      "ruta" : "severo",
+      "icon" : "assignment_turned_in",
+      "texto": "Encuesta NOM-035 Severo",
+      "backgoundColor": "#00C1FA",
+      "iconColor": "#FFFFFF",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "ruta" : "friesgo",
+      "icon" : "assignment_turned_in",
+      "texto": "Encuesta NOM-035 Riesgo",
+      "backgoundColor": "#00C1FA",
+      "iconColor": "#FFFFFF",
+      "textColor": "#FFFFFF"
+    },
+    {
+      "ruta" : "organizacion",
+      "icon" : "assignment_turned_in",
+      "texto": "Encuesta NOM-035 Organización",
+      "backgoundColor": "#00C1FA",
+      "iconColor": "#FFFFFF",
+      "textColor": "#FFFFFF"
+    }
+  ]
+}

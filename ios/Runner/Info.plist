@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Spaces</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleName</key>
+	<string>B2W</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>$(FLUTTER_BUILD_NAME)</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleVersion</key>
+	<string>$(CURRENT_PROJECT_VERSION)</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<string>0</string>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsLocalNetworking</key>
+		<true/>
+	</dict>
+	<key>NSBluetoothAlwaysUsageDescription</key>
+	<string>Usamos la conexión por Bluetooth en segundo plano para conectarnos con otras pulseras B8, y obtener información de las mismas periódicamente.</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>Se necesita el acceso a la conexión Bluetooth para poder conectarse con pulseras B8 y registrar información proveniente de las mismas.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>Se requiere el permiso de la cámara para escanear el código QR que contiene la información necesaria para realizar un registro de entrada/salida en algún espacio. También es utilizado para tomarte una selfie y actualizar tu foto de perfil en nuestra aplicación</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>Background location permission is needed in order to enable the geofencing functionality, and then make a check-in and checkout when you are inside/outside your campus, whenever you are within your campus.The app will automatically recognize when you are inside/outside your campus</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>Background location permission is needed in order to enable the geofencing functionality, and then make a check-in and checkout when you are inside/outside your campus, whenever you are within your campus.The app will automatically recognize when you are inside/outside your campus</string>
+	<key>NSLocationUsageDescription</key>
+	<string>Location permission is needed in order to enable the geofencing functionality, and then make a check-in and checkout when you are inside/outside your campus, whenever you are within your campus.The app will automatically recognize when you are inside/outside your campus</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Location permission is needed in order to enable the geofencing functionality, and then make a check-in and checkout when you are inside/outside your campus, whenever you are within your campus.The app will automatically recognize when you are inside/outside your campus</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Utilizamos el acceso a las imágenes de tu dispositivo para que puedas seleccionar y cambiar la foto de perfil en nuestra app</string>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>bluetooth-central</string>
+		<string>fetch</string>
+		<string>location</string>
+		<string>remote-notification</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIRequiredDeviceCapabilities</key>
+	<array>
+		<string>location-services</string>
+		<string>gps</string>
+		<string>armv7</string>
+	</array>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Light</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+</dict>
+</plist>

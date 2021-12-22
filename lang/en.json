@@ -1,0 +1,5 @@
+{
+  "prominent_disclosure_title": "This app needs access to background location",
+  "prominent_disclosure_description": "Background location permission is needed in order to enable the geofencing functionality, whenever you are within your campus.\nThe app will automatically recognize when you are inside your campus. Please accept background location permissions",
+  "accept": "Continue"
+}

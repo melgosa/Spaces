@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme applied to the Android Window while the process is starting when the OS's Dark Mode setting is off -->
+    <style name="LaunchTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <!-- Show a splash screen on the activity. Automatically removed when
+             Flutter draws its first frame -->
+        <item name="android:windowBackground">@drawable/launch_background</item>
+    </style>
+    <!-- Theme applied to the Android Window as soon as the process has started.
+         This theme determines the color of the Android Window while your
+         Flutter UI initializes, as well as behind your Flutter UI while its
+         running.
+         
+         This Theme is only used starting with V2 of Flutter's Android embedding. -->
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">?android:colorBackground</item>
+    </style>
+
+
+    <!-- Customize your theme here. -->
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+<!--    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:letterSpacing">0.04</item>
+    </style>-->
+    <style name="btn_outlined" parent="Widget.MaterialComponents.Button.OutlinedButton">
+        <item name="android:textAppearance">@style/Widget.MaterialComponents.Button.OutlinedButton</item>
+        <item name="android:padding">11dp</item>
+    </style>
+
+    <!-- Letreros en la app (TextViews). -->
+    <style name="TitulosAzul" parent="Widget.AppCompat.TextView">
+        <item name="android:paddingTop">@dimen/space_top_titles_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">@dimen/title_blue_size</item>
+        <item name="android:textColor">@color/blue1</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TitulosBigNegro" parent="Widget.AppCompat.TextView">
+        <item name="android:paddingTop">@dimen/space_top_titles_big_black</item>
+        <item name="android:layout_marginLeft">@dimen/space_top_titles_big_black</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_gravity">left</item>
+        <item name="android:textSize">@dimen/title_big_black_size</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="tvRealTimeValues">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/textSizeRealTimeValues</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginStart">@dimen/spaceBetweenImageAndText</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TextInfoCenteredNormalDialog">
+        <item name="android:textSize">@dimen/info_normal_text_size_dialog</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textColor">@color/blacklight2</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- CardViews en la app. -->
+    <style name="CardViewOpcion">
+        <item name="android:layout_marginLeft">@dimen/cardview_opciones_left_sides_margin</item>
+        <item name="android:layout_marginRight">@dimen/cardview_opciones_left_sides_margin</item>
+        <item name="android:layout_marginTop">@dimen/cardview_opciones_top_bottom_sides_margin</item>
+        <item name="android:layout_marginBottom">@dimen/cardview_opciones_top_bottom_sides_margin</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- Dialogos personalizados -->
+    <style name="dialogoCustomizado" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:radioButtonStyle">@color/vine1</item>
+    </style>
+
+    <!--Linear Layouts Styles-->
+    <style name="LinearLayoutVerticalInicialStyle">
+        <item name="android:orientation">vertical</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="LinearLayoutHorizontalNormalStyle">
+        <item name="android:focusable">true</item>
+        <item name="android:clickable">true</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!-- ImageViews -->
+    <style name="ImageViewNormalStyle">
+        <item name="android:layout_width">36dp</item>
+        <item name="android:layout_height">36dp</item>
+    </style>
+
+    <!-- Separadores -->
+    <style name="SeparadorBlancoHorizontal">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">0.8dp</item>
+        <item name="android:background">@color/white</item>
+    </style>
+
+    <!-- Buttons -->
+
+    <style name="ButtonStyleNormalDialogNegative" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_corners_primary</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+    <style name="ButtonStyleNormalDialogPositive" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/rounded_corners_blanco</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:fontFamily">@font/roboto_bold</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/plataheavy</item>
+        <item name="android:textSize">@dimen/button_text_size</item>
+    </style>
+
+</resources>

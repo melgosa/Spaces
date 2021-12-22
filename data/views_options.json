@@ -1,0 +1,82 @@
+{
+    "nombreApp" : "Componentes",
+    "rutas" : [
+        {
+            "ruta" : "chekin",
+            "texto": "Chek In"
+        },
+        {
+            "ruta" : "dataFromB8",
+            "icon" : "Data From B8"
+        },
+        {
+            "ruta" : "historial",
+            "icon" : "folder_open"
+          
+        },
+        {
+            "ruta" : "home",
+            "icon" : "Home"
+           
+        },
+        {
+            "ruta" : "information",
+            "texto": "Information"
+        },
+        {
+            "ruta" : "kodakRealTime",
+            "icon" : "Kodak Real Time"
+        },
+        {
+            "ruta" : "opciones",
+            "icon" : "Opciones"
+          
+        },
+        {
+            "ruta" : "perfil",
+            "icon" : "Perfil"
+           
+        },
+        {
+            "ruta" : "pulseras",
+            "texto": "Pulseras"
+        },
+        {
+            "ruta" : "questions",
+            "icon" : "Questions"
+        },
+        {
+            "ruta" : "retrunNewModality",
+            "icon" : "Return New Modality"
+          
+        },
+        {
+            "ruta" : "scanDevicesB8",
+            "icon" : "Scan Devices B8"
+           
+        },
+        {
+            "ruta" : "scanDevicesKodak",
+            "icon" : "Scan Devices Kodak"
+          
+        },
+        {
+            "ruta" : "seleccionDePulsera",
+            "icon" : "Seleccion de Pulsera"
+           
+        },
+        {
+            "ruta" : "webViewReturnNewModality",
+            "texto": "Web View Return New Modality"
+        },
+        {
+            "ruta" : "whatsapp",
+            "icon" : "Whatsaap"
+        },
+        {
+            "ruta" : "login",
+            "icon" : "Login"
+          
+        }
+    ]
+}

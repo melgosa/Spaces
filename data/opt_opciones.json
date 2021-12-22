@@ -1,0 +1,13 @@
+{
+    "nombreOpciones" : "OptOpciones",
+    "rutas" : [
+        {
+            "ruta" : "pulseras",
+            "icon" : "watch",
+            "texto": "Mi Brazalete",
+            "backgoundColor": "#FFB300",
+            "iconColor": "#FFFFFF",
+            "textColor": "#000000"
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+  "nombreOpciones" : "menuSalud",
+  "rutas" : [
+    {
+      "icon" : "bloodtype",
+      "texto": "Presión arterial",
+      "tipo": 1
+    },
+    {
+      "icon" : "favorite",
+      "texto": "Frecuencia cardiaca",
+      "tipo": 2
+    },
+    {
+      "icon" : "thermostat",
+      "texto": "Temperatura",
+      "tipo": 3
+    }
+  ]
+}
